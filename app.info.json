@@ -1,0 +1,12 @@
+{
+    "IGNORE-INFO_Credits": "The credits for this app.info.json goes to Quart2629 on GitHub.",
+
+
+    "name": ["sgames", "schoolhub"],
+    "description": "The website for all of the easy-access school links!",
+    "use-repository": "repository-new",
+    "repository-new": ["https://github.com/sgames/schoolhub", "https://github.com/sgames/sgames.github.io", "https://github.com/shxrkyylol/shxrkyylol.github.io"],
+    "repository-outdated": "https://github.com/shxrkyylol/schoolhub",
+    "logo": "https://github.com/sgames/schoolhub/blob/main/img/web/icon.png",
+    "keywords": ["SchoolHub", "school", "math", "work", "schoolwork", "educational", "science"]
+}

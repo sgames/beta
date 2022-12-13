@@ -1,0 +1,32 @@
+# logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Dependency dirs
+node_modules/
+jspm_packages/
+cts_modules/
+
+# Output of 'npm pack'
+*.tgz
+
+# dotenv variable files
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# Next.js build outputs
+.next
+out
+
+# Font leftovers from flhtml plugin
+*fl.
+*.fl
+*.fhtm

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<link rel="stylesheet" href="index_data/pacman.css">
+<script src="index_data/pacman.js"></script>
+</head>
+<body style="margin-left: 208.333px;">
+<div id="about-game" style="margin-left: -41.6667px;">
+<a class="start-btn" href="https://ubg100.github.io/"></a>
+</div>
+<canvas id="canvas" width="483" height="590">
+<div id="canvas-warning">Your browser does not support HTML Canvas. Please upgrade!</div>
+</canvas>
+<canvas id="atlas" style="display:none" width="513" height="806"></canvas>
+<script>window.addEventListener("keydown", function(e) {
+if([32, 37, 38, 39, 40].indexOf(e.keyCode) > -1) {
+e.preventDefault();
+}
+}, false);</script>
+
+</body></html>
